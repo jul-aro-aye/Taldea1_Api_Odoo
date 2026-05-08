@@ -7,7 +7,7 @@ namespace Odoo_Api.Services;
 public class OdooService
 {
     private readonly HttpClient _httpClient;
-    private readonly string _odooUrl = "http://localhost:8085"; 
+    private readonly string _odooUrl = "http://192.168.10.110:8085"; 
 
     public OdooService(HttpClient httpClient)
     {
