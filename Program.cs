@@ -14,6 +14,6 @@ app.MapPost("/api/deskontuak/egiaztatu", async (DeskontuEskaera eskaera, OdooSer
     return Results.Ok(emaitza);
 });
 
-app.Run();
+app.Run("http://0.0.0.0:5015");
 
 public record DeskontuEskaera(string kodea);
